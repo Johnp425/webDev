@@ -9,26 +9,13 @@
   <head>
     <title>Exploring Id Selectors & Specificity</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <style>
-      #bannerSeparator{
-        height: 10px;
-        border:0px solid white;
-        background-image: linear-gradient(to right, blue, white);
-      }
-      img{
-        height:100px;
-      }
-      #logo_container{
-        text-align:center;
-      }
-    </style>
   </head>
   <body>
     <script src="script.js"></script>
     <!-- Challenge 1: Add the image of banner.jpg.  Add an id of "banner" to the image-->
-
+<img scr="banner.jpg" id="banner">
     <!-- Challenge 2: Add a horizontal rule.  Add an id of "bannerSeparator" to the <hr>-->
-    
+    <hr id="bannerSeparator">
     <!-- Challenge 3: Add in id of logoContainer to the div below.-->
     <div>
       <img src="html.png" class="logo">
@@ -37,6 +24,7 @@
     </div>
     <hr>
     <div id="main_container">
+    <div id="LogoContainer"></div>
       <p>You probably know that computers don't communicate with each other the way that people do. Instead, computers require codes, or directions. These binary codes and commands allow computers to process needed information. Every second, billions upon billions of ones and zeros are processed in order to provide you with the information you need.</p>
 
       So what does that have to do with your ability to post your latest pictures online? Everything.
